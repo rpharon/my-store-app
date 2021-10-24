@@ -1,0 +1,29 @@
+GET http://localhost:5000/api/stores
+
+###
+GET   http://localhost:5000/api/stores/6173c25ac16d1d2641f91ba6
+
+###
+POST http://localhost:5000/api/stores
+Content-Type: application/json
+
+{
+    "name": "Harn's Coffee Shop 3.0",
+    "owner": "Harn Ryan",
+    "address": "Pag City",
+    "about": "Workplace station for freelancers."
+}
+
+###
+PATCH http://localhost:5000/api/stores/616d9f17bedb74aa18b9bd9c
+Content-Type: application/json
+
+{
+    "name": "Harn's Coffee Shop 2.0",
+    "owner": "Raiyan Haron",
+    "address": "Cebu City",
+    "about": "Workplace station for freelancers."
+}
+
+###
+DELETE http://localhost:5000/api/stores/616d9f17bedb74aa18b9bd9c

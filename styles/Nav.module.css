@@ -1,0 +1,31 @@
+.nav {
+  height: 50px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  display: block;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+}
+
+.nav a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+@media (max-width: 999px) {
+  .nav ul {
+    justify-content: center;
+  }
+}
